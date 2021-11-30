@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(200, 155, 241);
+    font-family: cursive;
+}
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    display: flex;
+}
+
+h1 {
+    margin-bottom: 120px;
+    position: absolute;
+    right: 550px;
+}
+
+.wrap {
+    margin-top: -190px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    width: 40px;
+}
+
+button {
+    padding: 10px;
+    color: royalblue;
+    background-color: rgb(216, 212, 212);
+    border: 2px solid royalblue;
+    margin-bottom: 15px;
+}
